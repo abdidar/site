@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+ul,
+li {
+    margin: 0;
+    list-style: none;
+}
+
+#main_wrapper {
+    height: 1250px;
+    width: 100%;
+    margin: auto;
+    background-color: coral;
+}
+
+#menu_wrapper {
+    height: 109px;
+    width: 100%;
+    background-color: white;
+}
+
+#menu_wrapper .logo {
+    height: 76px;
+    width: 74px;
+    background-color: white;
+    float: left;
+    margin: 5px 0 5px 140px;
+}
+
+#menu_wrapper ul li {
+    float: left;
+    width: 12%;
+    color: #3498db;
+    padding: 9px 0;
+    font-size: 20px;
+    font-weight: 800px;
+    margin: 35px 0 2px 0;
+    text-align: center;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#slider_wrapper {
+    height: 550px;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(../img/me.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#slider_wrapper .slider_content {
+    float: right;
+}
+
+#slider_wrapper .slider_content h1 {
+    color: red;
+    font-size: 60px;
+    text-align: justify;
+    font-family: 'Aref Ruqaa', serif;
+    margin: 60px 0 0 0;
+}
+
+#slider_wrapper .slider_content h1 span {
+    color: wheat;
+}
+
+#slider_wrapper .slider_content p {
+    color: white;
+    text-align: justify;
+    font-size: 50px;
+    font-weight: 700px;
+}
+
+#slider_wrapper .flag {
+    height: 150px;
+    width: 250px;
+    background-color: green;
+    margin: 50px;
+    float: left;
+}
+
+#slider_wrapper .flag .round {
+    height: 65px;
+    width: 65px;
+    background-color: red;
+    margin: 50px auto;
+    border-radius: 50%;
+}
+
+#content_wrapper {
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+
+#content_wrapper h1 {
+    margin: 50px 0 0 100px;
+    color: #3498db;
+    font-size: 40px;
+    /*border-bottom: 5px solid #3498db;*/
+}
+
+#content_wrapper p {
+    margin: 0px 0 0 100px;
+    color: /*#e67e22*/
+    ;
+    font-size: 20px;
+    font-weight: 700px;
+    border-radius: 5px 0 0 5px;
+    
+    border-left: 5px solid #3498db;
+}
+
+#footer_wrapper {
+    height: 50px;
+    width: 100%;
+    background-color: #3498db;
+    float: left;
+}
+
+#footer_wrapper h2 {
+    text-align: center;
+    color: white;
+    margin: 3px 0 1px 0;
+}
+
+#footer_wrapper h2 span {
+    color: red;
+}
